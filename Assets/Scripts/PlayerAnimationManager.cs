@@ -24,6 +24,11 @@ public class PlayerAnimationManager : MonoBehaviour
       {
         animator.SetTrigger("doRoll");
       }
+      if (Input.GetButtonUp("Fire2"))
+      {
+            animator.SetTrigger("doPunch");
+      }
+      
      
   }
 
